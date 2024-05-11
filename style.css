@@ -44,9 +44,14 @@ p:hover{
     text-decoration: underline;
 }
 
+label{
+    padding: auto;
+    padding: 13px
+}
+
 
 button{
-    width: 100px;
+    width: 109px;
     height: 50px;
     padding: 10px;
     margin: 10px;
