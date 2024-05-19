@@ -9,14 +9,12 @@
 <body>
     <div class="tela-login">
         <h1>Login</h1>
-        <input type="text" placeholder="usuário"> <br>
-        <input type="password"  placeholder="senha"> <br>
+        <input type="text" placeholder="usuário" id="login"> <br>
+        <input type="password"  placeholder="senha" id="senha"> <br>
         <label for="ilembrar">lembrar-me</label>
         <input type="checkbox" name="lembrar" id="ilembrar">
-        <a href="#">
-            <p>esqueci a senha</p>
-        </a>
-        <button><a href="#">Iniciar Sessão</a></button>
+        <a href="#"><p>esqueci a senha</p></a>
+        <input class="btn" type="submit" value="Iniciar sessão" onclick="logar()">
     </div>
 
  <script src="script.js"></script>
