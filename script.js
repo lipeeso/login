@@ -1,14 +1,15 @@
 function logar(){
-    var login = document.getElementById('login').value;
-    var senha = document.getElementById('senha').value;
+    
+    let login = document.getElementById('login').value;
+    let senha = document.getElementById('senha').value;
 
-    if(login == "admin" && senha =="admin"){
-        alert('Login efetuado com sucesso');
-        location.href ="home.html" //vai para página após o acesso liberado 
-}
+    if (login =="admin" && senha =="admin"){
+        alert("Login bem sucedido");
+        location.href="home.html";
+    }
+
     else{
-        alert('login ou senha incorreto');
-}
+        alert("usuário ou senha incorreta")
+    }
 
 }
-
