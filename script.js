@@ -1,1 +1,0 @@
-window.alert("Bem-vindo a tela de login");
